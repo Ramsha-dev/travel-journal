@@ -8,7 +8,7 @@ export default function Location(props) {
             <div className="location-name-map">
                 <i className="map-icon fas fa-map-marker-alt"></i>
                 <p>{props.location.location}</p>
-                <a href={props.location.googleMapsUrl}>View on Google Maps</a>
+                <a href={props.location.googleMapsUrl} target="_blank">View on Google Maps</a>
             </div>
 
             <div className="location-name-time">
