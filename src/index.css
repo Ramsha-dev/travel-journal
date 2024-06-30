@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+nav{
+  text-align: center;
+  background-color: #e67b04;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 14.6;
+  padding: 8px;
+}
+
+.location{
+  padding-left: 100px;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.location-img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;;
+}
+
+.location-content{
+  margin-top: 10px;;
+}
+
+.map-icon{
+  color: #e67b04;
+}
+
+a{
+  color: #918E9B;
+}
+.location-name-map{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+}
+.location-title{
+  margin-top: 0px;
+  font-size: 22px;
+}
+.duration{
+  margin-top: -12px;
+  font-size: 12px;
+}
+.location-desc{
+  font-size: 12px;;
+  color: #2B283A;
+}
